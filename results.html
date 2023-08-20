@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500&family=Poppins:wght@300&display=swap');
+body {
+ font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d; 
+   background-image: url("images/istockphoto-1170825611-612x612.jpg") ;
+  background-size: cover;
+  background-position:inherit;
+  color: white;
+}
+/* .about-section::after {
+  content: "";
+  background: url("images/basketball-3932163_1920.jpg");
+  /* opacity: 0.8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position:static; */
+  /* z-index: -1;   
+/* } */ 
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1><span style="color: white;">AIMSAS</span></h1>
+  <h2>RESULT SECTION</h2>
+  <h3><span style="color: white;">Check out the result and performance of all the students</span> </h3>
+  <!-- <img src="images/basketball-3932163_1920.jpg" alt="Jane" style="width: 100%; height: 10%;">
+  <div class="container">
+    <h1>AIMSAS</h1>
+    <p>RESULT SECTION</p>
+    <p>Check out the result and performance of all the students</p>
+  </div> -->
+</div>
+
+<h2 style="text-align:center">Our Classes</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="images/card1.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2>Class 3</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 3 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 3 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/card2.png" alt="Mike" style="width:100%">
+      <div class="container">
+         <h2>Class 4</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 4 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 4 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="images/card3.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Class 5</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 5 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 5 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <img src="images/card4.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Class 6</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 6 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 6 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="images/card5.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Class 7</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 7 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 7 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+  
+   <div class="column">
+    <div class="card">
+      <img src="images/card1.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2>Class 8</h2>
+        <p class="title">Result section</p>
+        <p>Check out the list of performance of  all class 8 students</p>
+        <p>for queries contact us</p>
+        <p><a href="Class 8 result.pdf" class="button">Visit</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
